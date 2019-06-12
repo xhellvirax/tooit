@@ -1,12 +1,11 @@
+
 # **Tooit Quiz**
-Small quiz application forked and improved for Drupal 7
+Small quiz application forked and improved
 
 ## Requirements
-
 Drupal 7.65
 
 ## Folders
-
 the folders contain the installable modules next to their dependencies, they are separated into custom, contribs and features modules
 
 
@@ -35,4 +34,21 @@ Create the field collections for a "Quiz" content type
 
 **Quiz fields import**
 Create the "Quiz" content type and setups
+
+
+
+## How does it work?
+**Create the nodes**
+Add a content Quiz and save
+
+**Go the quizzes landing page and see the quizzes list**
+http://nameyourproject/quiz
+
+**Show me the API**
+http://nameyourproject/quiz?quiz=nodeid
+
+
+
+
+
 
