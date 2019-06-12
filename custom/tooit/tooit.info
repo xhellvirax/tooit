@@ -1,0 +1,5 @@
+name = Tooit
+description = Tooit Content type 
+package = Tooit - Foo Company
+core = 7.x
+version = 7.x-0.1

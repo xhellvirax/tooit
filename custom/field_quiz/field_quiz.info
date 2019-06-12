@@ -1,0 +1,9 @@
+name = Widget Fields FC Tooit
+description = Create a quiz Field Collections
+package = Tooit - Foo Company
+core = 7.x
+version = 7.x-0.1
+files[] = field_quiz.module
+files[] = field_quiz.install
+files[] = field_quiz.theme.inc
+

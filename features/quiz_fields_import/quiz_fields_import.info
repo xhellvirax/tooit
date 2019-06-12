@@ -1,0 +1,15 @@
+name = Quiz fields import
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = field_collection
+dependencies[] = field_quiz
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_quiz_fc_answers
+features[field_base][] = field_quiz_fc_question
+features[field_base][] = field_quiz_q_a
+features[field_instance][] = field_collection_item-field_quiz_q_a-field_quiz_fc_answers
+features[field_instance][] = field_collection_item-field_quiz_q_a-field_quiz_fc_question
+features[field_instance][] = node-quiz-field_quiz_q_a
+features[node][] = quiz

@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the Quiz fields import feature.
+ */
+
+include_once 'quiz_fields_import.features.inc';

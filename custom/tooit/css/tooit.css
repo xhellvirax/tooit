@@ -1,0 +1,62 @@
+/** 
+ * @file
+ * CSS styling for CT Quiz
+ */
+html {
+  font-size: 17px;
+}
+h1#page-title {
+    font-size: 2em;
+    line-height: 1;
+    text-align: center;
+}
+
+div#main_quiz h2 {
+  font-size: 1.6em;
+}
+
+div#main_quiz .btn {
+  margin:7px auto 7px auto;
+  display:block;
+}
+
+div.quiz {
+    cursor: pointer;
+    margin: 7px auto 7px auto;
+    padding: 7px 7px 7px 7px;
+    text-align: left !important;
+}
+#data_quiz label {
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    color: #8c8c8c;
+}
+
+div.quiz:hover {
+  /* background-color: black; */
+  opacity: 0.8;
+  color: #888888;
+}
+
+div.quiz_question{
+  font-size: 1.3em;
+  margin: 1em;
+}
+
+div.quiz_message{
+  font-size: 1.6em;
+}
+
+#data_quiz label {
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+}
+
+#data_quiz input[type="radio"] {
+    margin-right: 6px;
+}
+
